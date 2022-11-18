@@ -70,7 +70,7 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `
-        <div class="col-2
+        <div class="col-2">
         <div class="col">
         <div class="WeatherForecastPreview">
           <div class="forecast-time">${formatDay(forecastDay.dt)}</div>
@@ -80,6 +80,7 @@ function displayForecast(response) {
           }@2x.png"
           alt=""
           width="42"
+          
         />
           <div class="forecast-temperature">
             <span class="forecast-temperature-max">${Math.round(
@@ -90,7 +91,7 @@ function displayForecast(response) {
             )}°</span>
           </div>
         </div>
-        </div>
+      </div>
       </div>
   `;
     }

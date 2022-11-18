@@ -168,6 +168,10 @@ body {
   padding-bottom: 0px;
 }
 
+#forecast {
+  display: block;
+  text-align: center;
+}
 .WeatherForecast .forecast-time {
   font-size: 16px;
   padding-bottom: 10px;

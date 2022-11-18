@@ -70,7 +70,8 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `
-        <div class="col-2">
+        <div class="col-2
+        <div class="col">
         <div class="WeatherForecastPreview">
           <div class="forecast-time">${formatDay(forecastDay.dt)}</div>
           <img
@@ -88,6 +89,7 @@ function displayForecast(response) {
               forecastDay.temp.min
             )}°</span>
           </div>
+        </div>
         </div>
       </div>
   `;

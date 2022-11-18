@@ -162,9 +162,9 @@ body {
   color: rgb(20, 87, 212);
 }
 .WeatherForecast {
+  display: block;
   text-align: center;
   margin: 40px 0;
-  display: block;
   padding-bottom: 0px;
 }
 

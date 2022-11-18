@@ -160,5 +160,5 @@ searchButton.addEventListener("click", searchWeather);
 let formButton = document.querySelector("#submit");
 formButton.addEventListener("submit", searchWeather);
 
-let location = document.querySelector("#current");
-location.addEventListener("click", getPosition);
+let current = document.querySelector("#current");
+current.addEventListener("click", getPosition);
